@@ -23,7 +23,7 @@ warpAffine(src, matrix, dsize=[112,112],borderValue=[0,0,0],bilinear_interpolati
 
 
 ## Replace
-本demo是仅仅单纯使用tfjs手动实现仿射变换操作而已，其亦可通过tfjs库自带的tf.image.transform()函数实现相同效果。
+本demo仅仅单纯使用tfjs手撕实现仿射变换操作而已，其亦可通过tfjs库自带的tf.image.transform()函数实现相同效果。
 
 
 ## References
